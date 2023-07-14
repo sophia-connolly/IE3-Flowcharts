@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TGzW7eD3RzcO1OG+APgSasv/ZBsX/9CDutK7z9a5lM3Ah9YMz4FANfSlytBtzRSjQjmm3KiDzQ8vIKBb6Vr/gw==",
+  "dgSpecHash": "7zVQbz6T/gfnTPGZ5SyJ+pC5er7/VoIaO0U2iY3M0a5NooLo8KRAVO+EyKduYCKmUsInMfCuNNHnDuGTIxLYBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SophiaConnolly\\Downloads\\FirstFlowchart\\FirstFlowchart\\.local\\",
+  "projectFilePath": "C:\\Users\\SophiaConnolly\\Desktop\\IE3-Flowcharts\\FirstFlowchart\\FirstFlowchart\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\SophiaConnolly\\.nuget\\packages\\azure.core\\1.18.0\\azure.core.1.18.0.nupkg.sha512",
     "C:\\Users\\SophiaConnolly\\.nuget\\packages\\closedxml\\0.95.4\\closedxml.0.95.4.nupkg.sha512",

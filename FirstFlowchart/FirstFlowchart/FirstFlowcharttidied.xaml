@@ -72,11 +72,11 @@
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">513,197.66666666666669</av:Point>
-          <av:Size x:Key="ShapeSize">434,84.66666666666667</av:Size>
+          <av:Size x:Key="ShapeSize">434,85.33333333333333</av:Size>
           <av:PointCollection x:Key="ConnectorLocation">730,282.33333333333337 730,312.33333333333337 727.3333333333333,312.33333333333337 727.3333333333333,338.6666666666667</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Assign sap:VirtualizedContainerService.HintSize="434,84.66666666666667" sap2010:WorkflowViewState.IdRef="Assign_1">
+      <Assign sap:VirtualizedContainerService.HintSize="434,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_1">
         <Assign.To>
           <OutArgument x:TypeArguments="x:Int32">[RandomNumber]</OutArgument>
         </Assign.To>
@@ -94,11 +94,11 @@
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <av:Point x:Key="ShapeLocation">627.3333333333333,338.6666666666667</av:Point>
-              <av:Size x:Key="ShapeSize">200,53.333333333333336</av:Size>
+              <av:Size x:Key="ShapeSize">200,54</av:Size>
               <av:PointCollection x:Key="ConnectorLocation">727.3333333333333,392 727.3333333333333,422 730,422 730,446.6666666666667</av:PointCollection>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input dialog" sap:VirtualizedContainerService.HintSize="200,53.333333333333336" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="[Message]" Title="First Flowchart">
+          <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input dialog" sap:VirtualizedContainerService.HintSize="200,54" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="[Message]" Title="First Flowchart">
             <ui:InputDialog.Result>
               <OutArgument x:TypeArguments="x:Int32">[GuessNumber]</OutArgument>
             </ui:InputDialog.Result>
@@ -124,10 +124,10 @@
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <av:Point x:Key="ShapeLocation">420,463.33333333333337</av:Point>
-                      <av:Size x:Key="ShapeSize">200,53.333333333333336</av:Size>
+                      <av:Size x:Key="ShapeSize">200,54</av:Size>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" Buttons="Ok" DisplayName="Message box" sap:VirtualizedContainerService.HintSize="200,53.333333333333336" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Congratulations! You guessed correctly! The number was &quot; + RandomNumber.ToString + &quot;.&quot;]" TopMost="True">
+                  <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" Buttons="Ok" DisplayName="Message box" sap:VirtualizedContainerService.HintSize="200,54" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Congratulations! You guessed correctly! The number was &quot; + RandomNumber.ToString + &quot;.&quot;]" TopMost="True">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -152,16 +152,16 @@
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <av:Point x:Key="ShapeLocation">293,567.6666666666666</av:Point>
-                          <av:Size x:Key="ShapeSize">434,84.66666666666667</av:Size>
+                          <av:Size x:Key="ShapeSize">434,85.33333333333333</av:Size>
                           <av:PointCollection x:Key="ConnectorLocation">293,610 262.99999999999994,610 262.99999999999994,365.33333333333337 627.3333333333333,365.33333333333337</av:PointCollection>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <Assign sap:VirtualizedContainerService.HintSize="434,84.66666666666667" sap2010:WorkflowViewState.IdRef="Assign_3">
+                      <Assign sap:VirtualizedContainerService.HintSize="434,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_3">
                         <Assign.To>
                           <OutArgument x:TypeArguments="x:String">[Message]</OutArgument>
                         </Assign.To>
                         <Assign.Value>
-                          <InArgument x:TypeArguments="x:String">Too big. Try again.</InArgument>
+                          <InArgument x:TypeArguments="x:String">Too big. Try again!</InArgument>
                         </Assign.Value>
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -179,11 +179,11 @@
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <av:Point x:Key="ShapeLocation">933,567.6666666666666</av:Point>
-                          <av:Size x:Key="ShapeSize">434,84.66666666666667</av:Size>
+                          <av:Size x:Key="ShapeSize">434,85.33333333333333</av:Size>
                           <av:PointCollection x:Key="ConnectorLocation">1150,567.6666666666666 1150,365.33333333333337 827.3333333333333,365.33333333333337</av:PointCollection>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <Assign sap:VirtualizedContainerService.HintSize="434,84.66666666666667" sap2010:WorkflowViewState.IdRef="Assign_4">
+                      <Assign sap:VirtualizedContainerService.HintSize="434,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_4">
                         <Assign.To>
                           <OutArgument x:TypeArguments="x:String">[Message]</OutArgument>
                         </Assign.To>
